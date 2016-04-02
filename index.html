@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title> SchoolGround </title>
+    <link rel='shortcut icon' href='assets/favicon.ico' type='image/x-icon' />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/assets/css/materialize.css" media="screen,projection" />
+
+    <script src="https://use.fonticons.com/1c889437.js"></script>
+
+    <!--Custom CSS-->
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/assets/js/materialize.js"></script>
+    <script src="/assets/js/init.js"></script>
+</head>
+
+<body>
+    <header>
+        <!--
+        <li class="logo"><a id="logo-container" href="http://materializecss.com/" class="brand-logo">
+            <object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">Your browser does not support SVG</object></a></li>
+-->
+        <div class="navbar-fixed">
+            <nav class="top-nav green-transparent">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <form class="green-transparent">
+                            <div class="input-field">
+                                <input id="search" type="search" />
+                                <label for="search"><i class="mdi-action-search"></i></label><i class="mdi-navigation-close close"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul id="slide-out" class="side-nav fixed">
+            <a href="#"><span><b style="color:#388e3c; font-size:20px" class="bold">&nbsp;&nbsp;School</b></span><span style="color:#424242; font-size:20px"><b class="bold">Ground</b></span></a>
+            <a class="waves-effect waves-light btn green white-text"><i class="material-icons left">forum</i>NEW GROUP</a>
+            <li><a href="#" class="waves-effect waves-green">Getting Started</a></li>
+            <li><a href="https://schoolground.braincert.com/" target="_blank" class="waves-effect waves-green">Launch Virtual Classroom</a></li>
+            <ul class="collapsible collapsible-accordion">
+
+                <li class="bold"><a class="collapsible-header  waves-effect waves-green">Study Groups</a>
+                    <div class="collapsible-body light">
+                        <ul>
+                            <li><a href="#">Color</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bold"><a class="collapsible-header  waves-effect waves-green">Tutors</a>
+                    <div class="collapsible-body light">
+                        <ul>
+                            <li><a href="#">Badges</a></li>
+                            <li><a href="#">Buttons</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bold"><a class="collapsible-header waves-effect waves-green">Students</a>
+                    <div class="collapsible-body light">
+                        <ul>
+                            <li><a href="#">Collapsible</a></li>
+                            <li><a href="#">Dialogs</a></li>
+                            <li><a href="#">Dropdown</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+    </header>
+
+    <main>
+        <div id="study-list">
+            <div class="container">
+                <div class="row center">
+                    <h1 class="light grey-text text-darken-3">Browse Study Groups</h1>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="image-card" class="activator" src="assets/abstract-blue.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">more_vert</i></span>
+                        <p>A study group for students in COMP-630 by Dr. Miles.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn green white-text"><i class="material-icons left">launch</i>Enter Study Group</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="image-card" class="activator" src="assets/abstract-blue.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">more_vert</i></span>
+                        <p>A study group for students in COMP-630 by Dr. Miles.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn green white-text"><i class="material-icons left">launch</i>Enter Study Group</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="image-card" class="activator" src="assets/abstract-blue.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">more_vert</i></span>
+                        <p>A study group for students in COMP-630 by Dr. Miles.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">COMP-630 Homies<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="waves-effect waves-light btn green white-text"><i class="material-icons left">launch</i>Enter Study Group</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
